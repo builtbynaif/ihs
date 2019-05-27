@@ -1,0 +1,10 @@
+.video-area {
+   background: url('../../assets/images/ear-blur.jpg') center center no-repeat;
+    background-size: cover;
+    
+    &--inner{
+        width: 50%;
+        margin: 10% auto;
+    }
+
+}

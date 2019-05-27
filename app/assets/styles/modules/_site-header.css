@@ -6,15 +6,16 @@
     transition: background-color .3s ease-out;
 
     &--is-expanded {
-        background-color: rgba($mainBlue, 0.55);
+        background-color: rgba($mainGreen, 0.55);
     }
 
     @mixin at778 {
         position: fixed;
-        background-color: rgba($mainBlue, 0.3);
+        background-color: #fff;
 
         &--dark {
-            background-color: rgba(23, 51, 72, .85)
+/*            background-color: rgba($mainGreen, 0.3);*/
+            background-color: rgba(255, 255, 255, 0.6);
         }
     }
 
@@ -31,16 +32,16 @@
         transform: translateX(-50%) scale(.8);
         transition: transform .3s ease-out;
         transform-origin: 50% 0;
-        padding: 25px 36px;
-        background-color: $mainBlue;
+/*        padding: 25px 36px;*/
+        background-color: $mainGreen;
 
 
         @mixin at778 {
             left: auto;
-            transform: translateX(0);
+            transform: translateX(0) scale(.75);
 
             .site-header--dark & {
-                transform: scale(.56);
+                transform: scale(.75);
             }
         }
     }

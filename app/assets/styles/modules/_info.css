@@ -1,0 +1,40 @@
+.info-area {
+    margin: 0 auto;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+
+    &--inner {
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+
+
+        &--content {
+            flex-basis: 50%;
+        }
+    }
+
+    &--sub-heading {
+        font-size: 1.5rem;
+        text-align: center;
+        font-weight: 300;
+    }
+}
+
+.news-letter input[type="text"] {
+    width: 85%;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 1.2rem;
+
+}
+
+.news-letter {
+    width: 70%;
+    margin: 2% auto;
+}

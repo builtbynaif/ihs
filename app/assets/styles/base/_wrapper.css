@@ -1,10 +1,8 @@
 .wrapper {
     overflow: hidden;
-    padding-left: 18px;
-    padding-right: 18px;
+    width: 90%;
     max-width: 1236px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 5% auto;
 
     &--medium {
         max-width: 976px;
@@ -46,5 +44,8 @@
             margin-bottom: 3.875rem;
 
         }
+    }
+    &-no-margin{
+        margin: 0 auto;
     }
 }

@@ -1,0 +1,10 @@
+.departments-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+    &--inner{
+        flex-basis: 27%;
+        
+    }
+}

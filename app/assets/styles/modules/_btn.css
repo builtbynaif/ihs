@@ -1,5 +1,5 @@
 .btn {
-    background-color: $mainBlue;
+    background-color: $mainGreen;
     color: #fff;
     text-decoration: none;
     padding: .75rem 1.2rem;
@@ -15,5 +15,28 @@
         @mixin at530 {
             font-size: 1.25rem;
         }
+
     }
+
+    &--inverse {
+        background-color: #fff;
+        color: $mainGreen;
+        box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    &--inverse:hover {
+        background-color: $mainGreen;
+        color: #fff;
+    }
+
+    &--smallest {
+        padding: 0.1rem 0.75rem;
+    }
+    
+}
+
+.centered-btn {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
 }

@@ -1,0 +1,51 @@
+.headline {
+    text-align: center;
+    font-size: 2.75rem;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1;
+    letter-spacing: 3px;
+
+}
+
+.sub-heading {
+    text-align: center;
+    font-size: 2.95rem;
+    font-weight: 100;
+    color: $mainGreen;
+    line-height: 1;
+    letter-spacing: 2px;
+
+    &__less-t-margin {
+        margin-top: -10px;
+    }
+}
+
+.white {
+    color: #fff;
+    text-align: center;
+/*    font-size: 1.5rem;*/
+    font-weight: 300;
+    line-height: 1.1;
+
+    &--narrow {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    &__less-t-margin {
+        margin-top: -20px;
+    }
+    
+    &__align-left{
+        text-align: left;
+    }
+}
+
+.black {
+    color: #000;
+    
+    &--align-left{
+        text-align: left;
+    }
+}

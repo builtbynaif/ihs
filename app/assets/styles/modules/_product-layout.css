@@ -1,0 +1,9 @@
+.product--layout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &--inner {
+       flex-basis: 45%;
+    }
+}
