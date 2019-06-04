@@ -1,7 +1,10 @@
 .product--layout {
-    display: flex;
+    display: block;
+    @mixin at530{
+        display: flex;
     justify-content: space-between;
     align-items: center;
+    }
 
     &--inner {
        flex-basis: 45%;

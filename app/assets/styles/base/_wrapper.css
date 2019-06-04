@@ -7,8 +7,8 @@
     &--medium {
         max-width: 976px;
     }
-    
-    &--narrow{
+
+    &--narrow {
         max-width: 470px;
     }
 
@@ -21,8 +21,8 @@
             padding-right: 18px;
         }
     }
-    
-        &--no-padding-until-large {
+
+    &--no-padding-until-large {
         padding-left: 0;
         padding-right: 0;
 
@@ -45,7 +45,11 @@
 
         }
     }
-    &-no-margin{
-        margin: 0 auto;
+
+    &-no-margin {
+
+        @mixin at530 {
+            margin: 0 auto;
+        }
     }
 }

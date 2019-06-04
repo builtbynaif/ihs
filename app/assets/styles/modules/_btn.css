@@ -2,8 +2,21 @@
     background-color: $mainGreen;
     color: #fff;
     text-decoration: none;
-    padding: .75rem 1.2rem;
+    padding: .6rem 1rem;
     display: inline-block;
+    font-size: 0.9rem;
+
+    @mixin at530 {
+        padding: .75rem 1.2rem;
+        font-size: 1.15rem;
+    }
+    
+     &-yellow{
+            background-color: $mainOrange;
+         @mixin at1010{
+             background-color: $mainGreen;
+         }
+        } 
 
     &--orange {
         background-color: $mainOrange;
@@ -14,7 +27,7 @@
 
         @mixin at530 {
             font-size: 1.25rem;
-        }
+        }   
 
     }
 
@@ -29,14 +42,21 @@
         color: #fff;
     }
 
-    &--smallest {
-        padding: 0.1rem 0.75rem;
+    &--center {
+        border: solid 1px $mainGreen;
+        text-align: center;
     }
-    
+
+    &--smallest {
+        @mixin at530 {
+            padding: 0.1rem 0.75rem;
+        }
+    }
+
 }
 
 .centered-btn {
     text-align: center;
     width: 100%;
-    margin: 0 auto;
+    margin:  0 auto;
 }

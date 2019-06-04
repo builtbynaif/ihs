@@ -20,20 +20,21 @@
     /* ie6-9 */
 }
 
-/*
-#particles-js-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 300px;
-    width: 100%;
-    background: transparent;
-}
-*/
-
 #particles-js-2{
-    height: 500px;
+    height: 600px;
     width: 100%;
     position: relative;
     background-color: #000;
+    @mixin at530{
+        height: 600px;
+    }
+}
+#particles-js-3{
+    height: 800px;
+    width: 100%;
+    position: relative;
+    background-color: #fffff2;
+    @mixin at530{
+        height: 600px;
+    }
 }

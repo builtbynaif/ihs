@@ -9,7 +9,7 @@ class Responsive {
 
     initSlider() {
         this.els.slick({
-            dots: true,
+            dots: false,
             autoplay: true,
             infinite: true,
             arrows: false,
